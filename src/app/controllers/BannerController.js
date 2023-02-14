@@ -6,7 +6,7 @@ class BannerController {
       if (!err) {
         res.json(banner);
       } else {
-        res.status(401).json()
+        res.status(400).json()
       }
     })
   }
