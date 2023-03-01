@@ -8,5 +8,4 @@ async function connect() {
     console.log('connect fail!')
   }
 }
-
 module.exports = { connect }
